@@ -1,4 +1,5 @@
 var prisma = {
+  count: 100,
   events: {
     name: null,
     metodo: function () {
@@ -9,3 +10,5 @@ var prisma = {
     },
   },
 };
+
+prisma.file = "file";
